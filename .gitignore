@@ -1,0 +1,38 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Downloaded source data and temporary archives
+metroguard_data/
+MetroPT3(AirCompressor).csv
+metropt3_dataset.zip
+metroguard_outputs.zip
+MetroGuard_Streamlit_Deploy.zip
+
+# Local runtime / tunnel binaries
+cloudflared
