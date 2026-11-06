@@ -1,0 +1,26 @@
+{
+  "project": "MetroGuard: Metro train air-compressor anomaly monitoring",
+  "dataset_source": "UCI Machine Learning Repository \u2014 MetroPT-3 Dataset (ID 791)",
+  "dataset_url": "https://archive.ics.uci.edu/dataset/791/metropt3%2Bdataset",
+  "dataset_start": "2020-02-01 00:00:00",
+  "dataset_end": "2020-09-01 03:59:50",
+  "raw_rows": 1516948,
+  "minute_rows": 306960,
+  "model_ready_rows": 243277,
+  "sensor_count": 15,
+  "feature_count": 75,
+  "train_period": "Before June 2020",
+  "validation_period": "June 2020",
+  "test_period": "July 2020",
+  "threshold_rule": "Threshold selected on normal June validation scores to target approximately 1% false-positive rate; fixed for July test.",
+  "thresholds": {
+    "Statistical baseline": 9.164644313798224,
+    "Isolation Forest": 0.1524212764225842
+  },
+  "warning_label_assumption": "The 120 minutes before each documented incident are treated as assumed warning minutes. The dataset does not provide verified labels for each minute.",
+  "limitations": [
+    "The two-hour warning window is an experimental assumption, not a verified target label.",
+    "The July test period contains only one documented incident.",
+    "An anomaly alert is not a calibrated probability of failure or a safety guarantee."
+  ]
+}

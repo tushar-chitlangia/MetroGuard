@@ -1,0 +1,3 @@
+Model,Threshold,Precision,Recall,F1-score,PR-AUC,Warning prevalence,Alert minutes,False-positive minutes,False positives per 1000 normal minutes
+Statistical baseline,9.164644313798224,0.0,0.0,0.0,0.012466026551974785,0.003342804613070366,1502,1502,41.98110570741797
+Isolation Forest,0.1524212764225842,0.0,0.0,0.0,0.12805007387834036,0.003342804613070366,197,197,5.506176980267203
